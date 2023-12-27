@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="name" content="Meat Delivery App">
+  <meta name="author" content="Bipin Regmi">
+  <title>Checkout Page</title>
+
+  <!-- All CSS Links -->
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<!--Navbar-->
+<div class="container-fluid p-0 " style="box-shadow: 0px 4px 8px rgba(222, 31, 38, 0.03);">
+  <div class="container p-0">
+    <div class="row" style="margin-right: 0;">
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse order-lg-1 order-3" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./explore.html">Explore</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link active" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+
+            </div>
+
+            <a class="navbar-brand order-1 mr-lg-0" href="./index.html">
+              <img src="./images/logo.png" class="img-fluid" width="140px">
+            </a>
+            <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse order-lg-3 order-4" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2" style="margin-left: auto;">
+                <li class="nav-item">
+                  <div class="input-group">
+                    <span class="input-group-text search-icon" id="basic-addon2" style="border-radius: 10px 0 0 10px;">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M14.7894 13.7354L12.0085 10.975C13.088 9.62807 13.6107 7.91846 13.4693 6.19767C13.3278 4.47689 12.533 2.87574 11.2481 1.72344C9.96328 0.571149 8.2861 -0.0446995 6.56147 0.00252864C4.83683 0.0497567 3.19582 0.756472 1.97586 1.97736C0.755897 3.19824 0.049719 4.8405 0.00252672 6.56645C-0.0446655 8.2924 0.570716 9.97085 1.72213 11.2567C2.87355 12.5425 4.47349 13.338 6.19297 13.4795C7.91245 13.6211 9.62076 13.0979 10.9667 12.0177L13.725 14.7781C13.7947 14.8484 13.8776 14.9042 13.9689 14.9423C14.0603 14.9804 14.1582 15 14.2572 15C14.3561 15 14.4541 14.9804 14.5455 14.9423C14.6368 14.9042 14.7197 14.8484 14.7894 14.7781C14.9245 14.6382 15 14.4513 15 14.2568C15 14.0622 14.9245 13.8753 14.7894 13.7354ZM6.76166 12.0177C5.72392 12.0177 4.70949 11.7097 3.84664 11.1327C2.9838 10.5558 2.31129 9.73568 1.91417 8.77621C1.51705 7.81674 1.41314 6.76097 1.61559 5.7424C1.81804 4.72383 2.31776 3.78822 3.05155 3.05387C3.78534 2.31952 4.72024 1.81943 5.73804 1.61682C6.75584 1.41421 7.81081 1.5182 8.76955 1.91562C9.72829 2.31305 10.5477 2.98607 11.1243 3.84957C11.7008 4.71307 12.0085 5.72827 12.0085 6.76679C12.0085 8.15941 11.4557 9.49499 10.4718 10.4797C9.48778 11.4644 8.15322 12.0177 6.76166 12.0177Z"
+                          fill="#DF1E24" />
+                      </svg>
+                    </span>
+                    <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username"
+                      aria-describedby="basic-addon2"
+                      style="border-left: 0;border-color: #E4E4E4; border-radius:0  10px 10px 0;">
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./profile.html">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_949_8254)">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M12.5 13.5418C14.9958 13.5418 17.2656 14.2647 18.9354 15.2825C19.7687 15.7929 20.4812 16.3918 20.9958 17.0429C21.5021 17.6845 21.875 18.4512 21.875 19.271C21.875 20.1512 21.4469 20.845 20.8302 21.3397C20.2469 21.8085 19.4771 22.1189 18.6594 22.3356C17.0156 22.77 14.8219 22.9168 12.5 22.9168C10.1781 22.9168 7.98437 22.771 6.34062 22.3356C5.52292 22.1189 4.75312 21.8085 4.16979 21.3397C3.55208 20.8439 3.125 20.1512 3.125 19.271C3.125 18.4512 3.49792 17.6845 4.00417 17.0429C4.51875 16.3918 5.23021 15.7929 6.06458 15.2825C7.73438 14.2647 10.0052 13.5418 12.5 13.5418ZM12.5 15.6252C10.3927 15.6252 8.49687 16.2397 7.15 17.0616C6.47604 17.472 5.96771 17.9179 5.63958 18.3345C5.30208 18.7616 5.20833 19.0845 5.20833 19.271C5.20833 19.3981 5.24688 19.5325 5.47396 19.7147C5.73333 19.9231 6.18437 20.1387 6.87396 20.321C8.24687 20.6856 10.2198 20.8335 12.5 20.8335C14.7812 20.8335 16.7531 20.6845 18.125 20.321C18.8156 20.1387 19.2667 19.9231 19.526 19.7147C19.7531 19.5325 19.7917 19.3981 19.7917 19.271C19.7917 19.0835 19.6979 18.7616 19.3615 18.3345C19.0323 17.9179 18.524 17.472 17.85 17.0616C16.5031 16.2387 14.6073 15.6252 12.5 15.6252ZM12.5 2.0835C13.8813 2.0835 15.2061 2.63223 16.1828 3.60898C17.1596 4.58573 17.7083 5.91049 17.7083 7.29183C17.7083 8.67317 17.1596 9.99793 16.1828 10.9747C15.2061 11.9514 13.8813 12.5002 12.5 12.5002C11.1187 12.5002 9.7939 11.9514 8.81715 10.9747C7.8404 9.99793 7.29167 8.67317 7.29167 7.29183C7.29167 5.91049 7.8404 4.58573 8.81715 3.60898C9.7939 2.63223 11.1187 2.0835 12.5 2.0835ZM12.5 4.16683C12.0896 4.16683 11.6833 4.24766 11.3041 4.40471C10.925 4.56175 10.5805 4.79194 10.2903 5.08212C10.0001 5.3723 9.76992 5.7168 9.61288 6.09594C9.45583 6.47509 9.375 6.88145 9.375 7.29183C9.375 7.70221 9.45583 8.10857 9.61288 8.48772C9.76992 8.86686 10.0001 9.21136 10.2903 9.50154C10.5805 9.79172 10.925 10.0219 11.3041 10.179C11.6833 10.336 12.0896 10.4168 12.5 10.4168C13.3288 10.4168 14.1237 10.0876 14.7097 9.50154C15.2958 8.91549 15.625 8.12063 15.625 7.29183C15.625 6.46303 15.2958 5.66817 14.7097 5.08212C14.1237 4.49607 13.3288 4.16683 12.5 4.16683Z"
+                          fill="#616161" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_949_8254">
+                          <rect width="25" height="25" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./checkout.html">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.29199 22.9168C6.71908 22.9168 6.2288 22.713 5.82116 22.3054C5.41283 21.897 5.20866 21.4064 5.20866 20.8335C5.20866 20.2606 5.41283 19.77 5.82116 19.3616C6.2288 18.954 6.71908 18.7502 7.29199 18.7502C7.86491 18.7502 8.35519 18.954 8.76283 19.3616C9.17116 19.77 9.37533 20.2606 9.37533 20.8335C9.37533 21.4064 9.17116 21.897 8.76283 22.3054C8.35519 22.713 7.86491 22.9168 7.29199 22.9168ZM17.7087 22.9168C17.1357 22.9168 16.6455 22.713 16.2378 22.3054C15.8295 21.897 15.6253 21.4064 15.6253 20.8335C15.6253 20.2606 15.8295 19.77 16.2378 19.3616C16.6455 18.954 17.1357 18.7502 17.7087 18.7502C18.2816 18.7502 18.7722 18.954 19.1805 19.3616C19.5882 19.77 19.792 20.2606 19.792 20.8335C19.792 21.4064 19.5882 21.897 19.1805 22.3054C18.7722 22.713 18.2816 22.9168 17.7087 22.9168ZM6.40658 6.25016L8.90658 11.4585H16.1982L19.0628 6.25016H6.40658ZM7.29199 17.7085C6.51074 17.7085 5.92046 17.3654 5.52116 16.6793C5.12185 15.9939 5.10449 15.3127 5.46908 14.6356L6.87533 12.0835L3.12533 4.16683H2.05762C1.76248 4.16683 1.51942 4.06683 1.32845 3.86683C1.13748 3.66752 1.04199 3.4203 1.04199 3.12516C1.04199 2.83002 1.14199 2.58245 1.34199 2.38245C1.5413 2.18315 1.78852 2.0835 2.08366 2.0835H3.77637C3.96734 2.0835 4.14963 2.13558 4.32324 2.23975C4.49685 2.34391 4.62706 2.49148 4.71387 2.68245L5.41699 4.16683H20.7816C21.2503 4.16683 21.5715 4.34044 21.7451 4.68766C21.9187 5.03489 21.91 5.39947 21.7191 5.78141L18.0212 12.4481C17.8302 12.7953 17.5785 13.0644 17.266 13.2554C16.9535 13.4463 16.5975 13.5418 16.1982 13.5418H8.43783L7.29199 15.6252H18.7764C19.0715 15.6252 19.3146 15.7248 19.5055 15.9241C19.6965 16.1241 19.792 16.3717 19.792 16.6668C19.792 16.962 19.692 17.2092 19.492 17.4085C19.2927 17.6085 19.0455 17.7085 18.7503 17.7085H7.29199Z"
+                        fill="#616161" />
+                    </svg>
+
+                  </a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Hero-->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-12 mt-4 mb-4">
+      <h2>Contact Us</h2>
+    </div>
+  </div>
+</div>
+
+<!--Form-->
+<div class="container pt-4 pb-4 contactus">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="mb-3">
+        <label for="basic-url" class="form-label">Your name <span class="astrik">*</span></label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"
+            placeholder="Enter your full name">
+        </div>
+
+        <label for="basic-url" class="form-label">Email <span class="astrik">*</span></label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"
+            placeholder="Enter your email">
+        </div>
+
+        <label for="basic-url" class="form-label">Subject <span class="astrik">*</span></label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"
+            placeholder="Enter your subject">
+        </div>
+
+        <label for="basic-url" class="form-label">Order number</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"
+            placeholder="Enter the order number (if known)">
+        </div>
+
+        <label for="basic-url" class="form-label">Message <span class="astrik">*</span></label>
+        <div class="input-group">
+          <textarea class="form-control" aria-label="With textarea" rows="10"
+            placeholder="Enter your message..."></textarea>
+        </div>
+        <div class="d-grid gap-2 mb-4">
+          <button class="btn btn-primary mt-3" type="button"
+            style="background-color: #DF1E24; color: white;padding: 16px;border: 0;">Submit</button>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-7">
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <div class="contactcard">
+            <svg width="35" height="35" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24.5" cy="24.5" r="24.5" fill="#DF1E24" />
+              <path
+                d="M37.5 17.5C37.5 16.125 36.375 15 35 15H15C13.625 15 12.5 16.125 12.5 17.5V32.5C12.5 33.875 13.625 35 15 35H35C36.375 35 37.5 33.875 37.5 32.5V17.5ZM35 17.5L25 23.75L15 17.5H35ZM35 32.5H15V20L25 26.25L35 20V32.5Z"
+                fill="white" />
+            </svg>
+            <label>chichi@gmail.com</label>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contactcard">
+            <svg width="35" height="35" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24.5" cy="24.5" r="24.5" fill="#DF1E24" />
+              <path
+                d="M25 25C25.6875 25 26.2762 24.755 26.7663 24.265C27.2554 23.7758 27.5 23.1875 27.5 22.5C27.5 21.8125 27.2554 21.2238 26.7663 20.7337C26.2762 20.2446 25.6875 20 25 20C24.3125 20 23.7242 20.2446 23.235 20.7337C22.745 21.2238 22.5 21.8125 22.5 22.5C22.5 23.1875 22.745 23.7758 23.235 24.265C23.7242 24.755 24.3125 25 25 25ZM25 34.1875C27.5417 31.8542 29.4271 29.7342 30.6562 27.8275C31.8854 25.9217 32.5 24.2292 32.5 22.75C32.5 20.4792 31.7758 18.6196 30.3275 17.1712C28.88 15.7238 27.1042 15 25 15C22.8958 15 21.1196 15.7238 19.6712 17.1712C18.2238 18.6196 17.5 20.4792 17.5 22.75C17.5 24.2292 18.1146 25.9217 19.3438 27.8275C20.5729 29.7342 22.4583 31.8542 25 34.1875ZM25 37.0312C24.8333 37.0312 24.6667 37 24.5 36.9375C24.3333 36.875 24.1875 36.7917 24.0625 36.6875C21.0208 34 18.75 31.5054 17.25 29.2038C15.75 26.9012 15 24.75 15 22.75C15 19.625 16.0054 17.1354 18.0163 15.2812C20.0263 13.4271 22.3542 12.5 25 12.5C27.6458 12.5 29.9738 13.4271 31.9837 15.2812C33.9946 17.1354 35 19.625 35 22.75C35 24.75 34.25 26.9012 32.75 29.2038C31.25 31.5054 28.9792 34 25.9375 36.6875C25.8125 36.7917 25.6667 36.875 25.5 36.9375C25.3333 37 25.1667 37.0312 25 37.0312Z"
+                fill="white" />
+            </svg>
+            <label>Kathmandu, Nepal</label>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contactcard">
+            <svg width="35" height="35" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24.5" cy="24.5" r="24.5" fill="#DF1E24" />
+              <g clip-path="url(#clip0_785_12174)">
+                <path
+                  d="M31.2568 36.6111C31.0233 36.6105 30.7904 36.5849 30.5623 36.5347C26.2197 35.6364 22.219 33.5301 19.0207 30.4583C15.8906 27.3798 13.7197 23.4601 12.7707 19.1736C12.6588 18.6394 12.6862 18.0854 12.8504 17.5648C13.0146 17.0443 13.31 16.5747 13.7082 16.2014L16.486 13.5278C16.6278 13.3936 16.7964 13.2909 16.9807 13.2263C17.165 13.1616 17.3608 13.1366 17.5554 13.1528C17.7572 13.1738 17.9519 13.2388 18.1259 13.3432C18.2998 13.4476 18.4488 13.5888 18.5624 13.757L22.0346 18.8889C22.1648 19.088 22.2276 19.3237 22.2139 19.5612C22.2001 19.7987 22.1105 20.0256 21.9582 20.2083L20.2151 22.2917C20.9093 23.8281 21.8925 25.2167 23.111 26.382C24.3216 27.5895 25.7525 28.5536 27.3262 29.2222L29.486 27.507C29.6674 27.3636 29.8881 27.2788 30.1188 27.264C30.3495 27.2491 30.5793 27.3048 30.7776 27.4236L36.0207 30.8125C36.2006 30.9199 36.3539 31.0667 36.469 31.2418C36.5842 31.4169 36.6583 31.6157 36.6856 31.8235C36.713 32.0312 36.6931 32.2425 36.6272 32.4414C36.5614 32.6404 36.4513 32.8218 36.3054 32.9722L33.5971 35.6528C33.2894 35.9589 32.9243 36.2012 32.5226 36.3657C32.121 36.5301 31.6908 36.6136 31.2568 36.6111ZM17.4443 14.5278L14.6665 17.2014C14.4425 17.4101 14.2767 17.6735 14.1854 17.9658C14.0941 18.258 14.0804 18.569 14.1457 18.8681C15.0281 22.8904 17.0566 26.5711 19.986 29.4653C22.9958 32.3553 26.7607 34.3364 30.8471 35.1806C31.1564 35.2452 31.4769 35.2321 31.7799 35.1424C32.0829 35.0528 32.3589 34.8893 32.5832 34.6667L35.2915 31.9861L30.229 28.7153L27.9096 30.5625C27.8208 30.6328 27.7161 30.6803 27.6048 30.7009C27.4934 30.7214 27.3787 30.7145 27.2707 30.6806C25.3448 29.971 23.5995 28.8446 22.1596 27.382C20.6702 25.9911 19.5142 24.282 18.7776 22.382C18.7465 22.2669 18.7454 22.1458 18.7746 22.0303C18.8038 21.9147 18.8622 21.8087 18.9443 21.7222L20.8193 19.4792L17.4443 14.5278Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_785_12174">
+                  <rect width="25" height="25" fill="white" transform="translate(12 12)" />
+                </clipPath>
+              </defs>
+            </svg>
+            <label>+977 9876543210</label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img src="./images/map.png" class="img-fluid" width="100%">
+          <!-- <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 100%">
+                      <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        style="border:0" allowfullscreen></iframe>
+                    </div> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--fotter-->
+<div class="container-fluid fotter pt-4">
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-md-4 col-sm-12 fotter-logo">
+        <img src="./images/logo.png" class="img-fluid pb-4">
+        <p style="color: white;">CC Tower, Putalisadak<br>
+          Kathmandu, Nepal</p>
+      </div>
+      <div class="col-md-2 col-sm-6 col-6">
+        <h6 class="pb-3">USEFUL LINKS</h6>
+        <ul class="p-0">
+          <li>About Us</li>
+          <li>Available Areas</li>
+          <li>Blog</li>
+          <li>Delivery Charges</li>
+        </ul>
+
+      </div>
+      <div class="col-md-2 col-sm-6 col-6">
+        <h6 class="pb-3">GET HELP</h6>
+        <ul class="p-0">
+          <li>How to Order?</li>
+          <li>FAQs</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-6 col-6">
+        <h6 class="pb-3">CALL US</h6>
+        <ul class="p-0">
+          <li>Kathmandu: 9876543210</li>
+          <li>Pokhara: 9876543210</li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-6 col-6 arr-fotter">
+        <svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="33.5" cy="33.5" r="32.5" stroke="white" stroke-width="2" />
+          <path d="M33.5 41.9584V25.0417" stroke="white" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path d="M25.0417 33.5001L33.5 25.0417L41.9583 33.5001" stroke="white" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <p style="color: white;">Copyright 2023 Chichi Pvt. Ltd.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- All JS Links -->
+<script src="./assets/bootstrap/js/bootstrap.min.js" defer></script>
+<script src="./assets/js/scripts.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,408 @@
+/* Meat Delivery | HTML5 Template
+* Version: 01,
+*/
+
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    margin: 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    scrollbar-color: #DF1E24 !important;
+}
+
+/* Header Styles */
+h1,
+h2,
+h3,
+h4 {
+    color: #DF1E24 !important;
+}
+
+h1 {
+    font-size: calc(1.55rem + 3.6vw);
+    padding-bottom: 40px;
+}
+
+/* Hero Container Styles */
+.hero-con {
+    background-image: url(../../images/hero-pattern.png);
+    background-repeat: no-repeat;
+}
+
+.hero-con button {
+    background-color: #DF1E24 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    color: white !important;
+}
+
+/* Inner Container Styles */
+.inner-con {
+    display: flex;
+    align-items: center;
+}
+
+/* Sidemenu Styles */
+.sidemenu button {
+    text-align: left;
+    color: black !important;
+    background-color: white !important;
+    border-radius: 0 !important;
+}
+
+/* Sidemenu Active Styles */
+.sidemenu .acti {
+    border-right: 5px solid #DF1E24 !important;
+    color: #DF1E24 !important;
+}
+
+.sidemenu button:hover {
+    color: #DF1E24 !important;
+}
+
+/* Input Styles for Contact Us, Profile, and Checkout */
+.contactus input,
+.profile input,
+.checkout input {
+    padding: 10px !important;
+    border-radius: 4px !important;
+    filter: drop-shadow(0px 1px 2px rgba(77, 64, 85, 0.1));
+    margin-bottom: 30px;
+}
+
+/* Asterisk Color */
+.astrik {
+    color: #DF1E24;
+}
+
+/* Profile Background Styles */
+.profile-bg {
+    padding-top: 195px;
+    background-image: url(../../images/profile-pattern.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 800px;
+    padding-bottom: 72px;
+}
+
+/* Address Styles */
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Detail Container List Styles */
+.detail-con ul li {
+    list-style: disc;
+    list-style-image: url(../../images/dot.png);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/* Login Background Styles */
+.login-bg {
+    background-image: url(../../images/pattern-login.png);
+    height: 100vh;
+}
+
+/* Horizontal Rule Styles */
+hr {
+    color: #dfdfdf !important;
+}
+
+/* Single Cart Item Styles */
+.single-cartitem {
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    padding: 12px 0 12px 0;
+}
+
+/* Order Summary Styles */
+.order-summary {
+    border: 2px solid #E4E4E4;
+    border-radius: 5px;
+    padding: 20px;
+    color: #919191;
+}
+
+/* Circular Outline Styles */
+.circular-outline {
+    border-radius: 100% !important;
+    border: 1px solid #DF1E24 !important;
+    background: transparent !important;
+    padding: 10px !important;
+}
+
+/* Search Icon Styles */
+.search-icon {
+    background-color: unset !important;
+    border-right: 0px !important;
+}
+
+/* Scroll Item Styles */
+.scroll-item {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 350px;
+}
+
+/* Item Scrollable Styles */
+.item-scrollable {
+    display: inline-flex;
+    overflow-x: auto;
+    justify-content: space-between;
+}
+
+/* Item Container Styles */
+.item-con {
+    width: max-content;
+    margin-right: 10px;
+}
+
+/* Hot Offer Styles */
+.hotoffer {
+    background-image: url(../../images/hotoffer.png);
+    height: 328px;
+    color: white !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+h5 {
+    font-size: 32px !important;
+}
+
+/* About Us Styles */
+.aboutus h4 {
+    margin-top: 30px;
+}
+
+.aboutus p {
+    padding-bottom: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    color: #919191;
+}
+
+/* Contact Card Styles */
+.contactcard {
+    box-shadow: 3px 3px 4px rgba(223, 30, 36, 0.04);
+    border-radius: 10px;
+    padding: 22px;
+}
+
+.contactcard label {
+    color: #DF1E24;
+    padding-left: 10px;
+}
+
+/* Unordered List Styles */
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    font-weight: 200;
+}
+
+/* Overlap Over Styles */
+.overlap-over {
+    background-color: #DF1E24;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: -100px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Align Center Styles */
+.align-center {
+    padding: 30px;
+}
+
+/* Overlap Over2 Styles */
+.overlap-over2 {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    top: -100px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 10px 6px 5px rgba(0, 0, 0, 0.01), 6px 4px 4px rgba(0, 0, 0, 0.03), 3px 2px 3px rgba(0, 0, 0, 0.04), 1px 0px 2px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* Play Container Styles */
+.playcon {
+    display: flex;
+    align-items: center;
+}
+
+/* Footer Styles */
+.fotter {
+    background-color: #DF1E24;
+    color: white;
+}
+
+/* Spacer Styles */
+.spacer {
+    width: 10px;
+}
+
+/* Mobile Item Styles */
+.m-item {
+    color: black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+/* Mobile Item Active Styles */
+.m-item-active {
+    background-color: #DF1E24;
+    color: white;
+}
+
+/* Anchor Styles */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Horizontal Rule Container Styles */
+.hr-con {
+    padding: 50px 0 20px 0;
+}
+
+/* Profile Card Styles */
+.profile-card {
+    position: relative;
+    top: 90px;
+    text-align: center;
+}
+
+/* Edit Profile Styles */
+.edit-profile {
+    position: absolute;
+    bottom: 25px;
+    left: 96px;
+}
+
+/* Navbar Styles */
+.navbar ul li a {
+    font-weight: 600;
+    color: #DF1E24 !important;
+    margin-right: 20px;
+}
+
+/* Active Navbar Styles */
+.navbar .active {
+    border-bottom: 2px solid #DF1E24;
+}
+
+/* Arr Fotter Styles */
+.arr-fotter {
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
+
+/* Inverse Color Styles */
+.inverse-color {
+    color: white !important;
+}
+
+/* Big Price Styles */
+.price-big {
+    font-size: 30px;
+}
+
+/* Login Logo Styles */
+.login-logo {
+    position: absolute;
+    top: 74px;
+    right: 93px;
+    width: 138px;
+}
+
+/* Media Queries for Small Screens */
+@media (max-width:576px) {
+    .hero-img {
+        display: none;
+    }
+
+    .playcon {
+        text-align: center;
+    }
+
+    .playcon img {
+        width: 150px;
+    }
+
+    .navbar .navbar-brand img {
+        width: 60px !important;
+    }
+
+    .fotter-logo {
+        order: 2;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        justify-content: space-between;
+    }
+
+    .arr-fotter {
+        display: flex;
+        align-items: end;
+        justify-content: right;
+    }
+
+    .checkout-left {
+        padding-right: 0 !important;
+    }
+
+    .hotoffer-con {
+        padding: 0 !important;
+    }
+
+    .hide-mbl {
+        display: none;
+    }
+
+    .mb-title {
+        text-align: center;
+    }
+
+    /* login responsive */
+    .login-con {
+        padding: 20px !important;
+    }
+
+    .form-con {
+        padding: 10px !important;
+    }
+
+    .login-logo {
+        top: 38px;
+        right: 51px;
+        width: 80px;
+    }
+}
+
+/* Media Queries for Large Screens */
+@media (min-width:992px) {
+    .navbar-expand-lg .navbar-collapse {
+        width: 100%;
+    }
+}
